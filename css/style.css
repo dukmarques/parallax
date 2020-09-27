@@ -43,7 +43,7 @@ a {
 
 /*Header ---------------------------------------*/
 header {
-    background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
+    background: #FFF url(../img/bg-1.jpg) no-repeat center;
 }
 
 header nav {
@@ -121,7 +121,7 @@ section.divisor article.divisor-home p {
 
 /*Section 1 ----------------------------------*/
 section.section1 {
-    background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
+    background: #FFF url(../img/bg-2.jpg) no-repeat center;
 }
 
 section.section1 .section1-intro {
@@ -139,7 +139,7 @@ section.section1 .section1-intro h1 {
 
 /*Section 2 ----------------------------------*/
 section.section2 {
-    background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
+    background: #FFF url(../img/bg-3.jpg) no-repeat center;
 }
 
 section.section2 .section2-intro {
@@ -157,7 +157,7 @@ section.section2 .section2-intro h1 {
 
 /*Section 3 ----------------------------------*/
 section.section3 {
-    background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
+    background: #FFF url(../img/bg-4.jpg) no-repeat center;
 }
 
 section.section3 .section3-intro {
@@ -175,7 +175,7 @@ section.section3 .section3-intro h1 {
 
 /*Section 4 ----------------------------------*/
 section.section4 {
-    background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
+    background: #FFF url(../img/bg-5.jpg) no-repeat center;
 }
 
 section.section4 .section4-intro {
@@ -196,10 +196,12 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     padding: 10px;
+    background-color: rgb(44, 44, 44);
+    color: #FFF;
 }
 
 footer p a {
-    color: rgb(181, 82, 49);
+    color: rgb(221, 94, 52);
 }
 
 /*Sociais ---------------------------------------*/
