@@ -114,6 +114,7 @@ section.divisor article.divisor-home h1 {
 }
 
 section.divisor article.divisor-home p {
+    width: 83%;
     font-size: 1.1rem;
     font-weight: 100;
 }
@@ -190,8 +191,63 @@ section.section4 .section4-intro h1 {
     font-size: 2.5rem;
 }
 
+/*Footer ---------------------------------------*/
 footer {
     text-align: center;
     font-size: 0.9rem;
     padding: 10px;
+}
+
+
+/*Sociais ---------------------------------------*/
+
+.sociais {
+    font-size: 1.3rem;
+    width:13%;
+    height: 100%;
+
+    border: 1px solid red;
+}
+
+.sociais .sociais-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0px;
+    left: 5px;
+}
+
+.sociais .sociais-icons a {
+    color: #FFD700;
+    margin-bottom: 5px;
+}
+
+.sociais .sociais-icons a #spotify {
+    color: rgb(29, 209, 85);
+}
+
+.sociais .sociais-icons a #yt {
+    color: rgb(255, 0, 4);
+}
+
+.sociais .sociais-icons a #insta {
+    color: rgb(178, 0, 141);
+    width: 21px;
+}
+
+.sociais .sociais-icons a #fb {
+    color: rgb(56, 89, 164);
+}
+
+.sociais .sociais-icons a #tt {
+    color: rgb(36, 154, 212);
+}
+
+.sociais .sociais-icons hr {
+    border: 1px solid #000;
+    width: 2px;
+    height: 40px;
 }
