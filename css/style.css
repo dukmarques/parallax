@@ -153,3 +153,45 @@ section.section2 .section2-intro {
 section.section2 .section2-intro h1 {
     font-size: 2.5rem;
 }
+
+/*Section 3 ----------------------------------*/
+section.section3 {
+    background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
+}
+
+section.section3 .section3-intro {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+section.section3 .section3-intro h1 {
+    font-size: 2.5rem;
+}
+
+/*Section 4 ----------------------------------*/
+section.section4 {
+    background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
+}
+
+section.section4 .section4-intro {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+section.section4 .section4-intro h1 {
+    font-size: 2.5rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 10px;
+}
