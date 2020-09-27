@@ -86,7 +86,7 @@ header .header-intro {
 }
 
 header .header-intro h1 {
-    font-size: 2.5rem;
+    font-size: 2.9rem;
 }
 
 /*Divisor ---------------------*/
@@ -134,7 +134,7 @@ section.section1 .section1-intro {
 }
 
 section.section1 .section1-intro h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 /*Section 2 ----------------------------------*/
@@ -152,7 +152,7 @@ section.section2 .section2-intro {
 }
 
 section.section2 .section2-intro h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 /*Section 3 ----------------------------------*/
@@ -170,7 +170,7 @@ section.section3 .section3-intro {
 }
 
 section.section3 .section3-intro h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 /*Section 4 ----------------------------------*/
@@ -188,7 +188,7 @@ section.section4 .section4-intro {
 }
 
 section.section4 .section4-intro h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 /*Footer ---------------------------------------*/
@@ -253,4 +253,64 @@ footer p a {
     border: 1px solid rgb(44, 44, 44);
     width: 2px;
     height: 40px;
+}
+
+/*Breakpoints & Media Querys*/
+@media (min-width: 700px) {
+    
+    .parallax {
+        height: 870px;
+    }
+
+    header nav ul {
+        justify-content: center;
+    }
+    
+    header nav ul li {
+        padding: 20px;
+        margin: 0 30px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    header .header-intro h1 {
+        font-size: 4.5rem;
+    }
+
+    section.section1 .section1-intro h1,
+    section.section2 .section2-intro h1,
+    section.section3 .section3-intro h1,
+    section.section4 .section4-intro h1 {
+        font-size: 3.5rem;
+    }
+
+    section.divisor article.divisor-home h1 {
+        font-size: 2.5rem;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+
+    section.divisor article.divisor-home p {
+        width: 70%;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    .sociais {
+        font-size: 2.5rem;
+    }
+
+    .sociais .sociais-icons {
+        position: fixed;
+        bottom: 5px;
+        left: 20px;
+    }
+
+    .sociais .sociais-icons a #insta {
+        width: 38px;
+    }
 }
