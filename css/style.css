@@ -36,7 +36,7 @@ a {
 /*Parallax -------------------------------------*/
 
 .parallax {
-    background-size: cover;
+    background-size: cover !important;
     background-attachment: fixed !important;
     height: 700px;
 }
@@ -198,6 +198,9 @@ footer {
     padding: 10px;
 }
 
+footer p a {
+    color: rgb(181, 82, 49);
+}
 
 /*Sociais ---------------------------------------*/
 
@@ -205,8 +208,6 @@ footer {
     font-size: 1.3rem;
     width:13%;
     height: 100%;
-
-    border: 1px solid red;
 }
 
 .sociais .sociais-icons {
@@ -247,7 +248,7 @@ footer {
 }
 
 .sociais .sociais-icons hr {
-    border: 1px solid #000;
+    border: 1px solid rgb(44, 44, 44);
     width: 2px;
     height: 40px;
 }
