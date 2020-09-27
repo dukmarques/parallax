@@ -11,6 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    /*Ver se fica legal*/
+    /*opacity: 0.9;*/
+}
+
 nav, ul {
     list-style: none;
     margin: 0;
@@ -28,16 +33,24 @@ a {
     cursor: pointer;
 }
 
+/*Parallax -------------------------------------*/
+
+.parallax {
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 700px;
+}
+
 /*Header ---------------------------------------*/
 header {
     background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 700px;
 }
 
 header nav {
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header nav ul {
@@ -63,7 +76,6 @@ header nav ul li a:hover {
 
 header .header-intro {
     text-align: center;
-    border: 1px solid red;
     height: 100%;
     width: 100%;
     color: #FFF;
@@ -74,5 +86,70 @@ header .header-intro {
 }
 
 header .header-intro h1 {
+    font-size: 2.5rem;
+}
+
+/*Divisor ---------------------*/
+
+section.divisor {
+    background-color: rgb(44, 44, 44);
+    color: #FFF;
+    height: 300px;
+    width: 100%;
+}
+
+section.divisor article.divisor-home {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.divisor article.divisor-home h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+section.divisor article.divisor-home p {
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+/*Section 1 ----------------------------------*/
+section.section1 {
+    background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
+}
+
+section.section1 .section1-intro {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+section.section1 .section1-intro h1 {
+    font-size: 2.5rem;
+}
+
+/*Section 2 ----------------------------------*/
+section.section2 {
+    background: #FFF url(https://picsum.photos/1920/1080) no-repeat center;
+}
+
+section.section2 .section2-intro {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+section.section2 .section2-intro h1 {
     font-size: 2.5rem;
 }
